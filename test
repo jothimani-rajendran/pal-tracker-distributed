@@ -1,0 +1,27 @@
+./gradlew cloudNativeDeveloperDistributedSystemDeployment \
+    -PregistrationServerUrl=https://registration-pal-jothi.apps.pikes.pal.pivotal.io\
+    -PbacklogServerUrl=https://backlog-pal-jothi.apps.pikes.pal.pivotal.io \
+    -PallocationsServerUrl=https://allocations-pal-jothi.apps.pikes.pal.pivotal.io\
+    -PtimesheetsServerUrl=https://timesheets-pal-jothi.apps.pikes.pal.pivotal.io
+
+
+     	release-train = Edgware
+     	Edgware - 1.6.0
+
+     	Edgware.RELEASE
+
+
+
+
+     	./gradlew cloudNativeDeveloperDistributedSystemWithServiceDiscovery \
+            -PregistrationServerUrl=https://registration-pal-jothi.apps.pikes.pal.pivotal.io\
+            -PbacklogServerUrl=https://backlog-pal-jothi.apps.pikes.pal.pivotal.io \
+            -PallocationsServerUrl=https://allocations-pal-jothi.apps.pikes.pal.pivotal.io\
+            -PtimesheetsServerUrl=https://timesheets-pal-jothi.apps.pikes.pal.pivotal.io
+
+
+./gradlew cloudNativeDeveloperDistributedSystemWithCircuitBreaker \
+     -PregistrationServerUrl=https://registration-pal-jothi.apps.pikes.pal.pivotal.io\
+                -PbacklogServerUrl=https://backlog-pal-jothi.apps.pikes.pal.pivotal.io \
+                -PallocationsServerUrl=https://allocations-pal-jothi.apps.pikes.pal.pivotal.io\
+                -PtimesheetsServerUrl=https://timesheets-pal-jothi.apps.pikes.pal.pivotal.io
