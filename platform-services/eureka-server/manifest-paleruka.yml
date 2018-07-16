@@ -1,0 +1,7 @@
+applications:
+- name: tracker-eureka
+  path: ./platform-services/build/libs/platform-services.jar
+  routes:
+  - route: eureka-pal-jothi.apps.pikes.pal.pivotal.io
+  memory: 1G
+  instances: 1
